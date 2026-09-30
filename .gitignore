@@ -1,0 +1,18 @@
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Dependencies and test artifacts
+/vendor/
+.phpunit.cache/
+
+# Local databases and logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
